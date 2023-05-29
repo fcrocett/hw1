@@ -1,0 +1,101 @@
+body{
+    background-color: #070A21;
+    margin:0;
+    color: #f8f8f8;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+#logo{
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+.error{
+    display:block;
+    background-color: #AE2012;
+    padding: 14px 14px 12px;
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 400px;
+}
+
+
+main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+.username, .password{
+    text-align: left;
+}
+
+section {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+    padding: 50px 35px;
+}
+
+section *{
+    
+    letter-spacing: 0,5px;
+    outline: none;
+    border: none;
+}
+
+section h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    color:#ffffff
+}
+
+
+.login-btn{
+    font-family:'Rubik', sans-serif;
+    width: 100%;
+    color:#080710;
+    padding:15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  .signup h1{
+    font-size: 20px;
+  }
+
+   a{
+    color: #0A9396;
+    font-size: 20px;
+  }

@@ -1,0 +1,216 @@
+body{
+    background-color: #070A21;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #f8f8f8;
+  }
+
+
+
+  #links a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+  .nav-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #logo{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #links a{
+    margin: 15px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 680px) {
+    #links {
+      display: none;
+    }
+  }
+
+  .button{
+    background-color: #9B2226;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  h1{
+      font-size: 25px;
+      margin-top: 93px;
+      margin-left: 20px;
+  }
+
+  h3{
+    font-size: 20px;
+      margin-left:20px;
+  }
+
+
+.containerlist, .containerwatched{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center
+  }
+  
+  @media (max-width: 500px) {
+    .container{
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  
+  #resultslist, #resultswatched{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  
+  .film{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 20%;
+    background-color: #10142d;
+    border-radius: 8px;
+    margin: 15px;
+  }
+  
+  .film:hover{
+    background-color: #191F45;
+  }
+  
+  .filmInfo{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filmInfo:hover + .seenForm{
+    opacity: 1;
+  }
+  
+  .seenForm{
+      opacity: 0;
+  }
+  
+    .seenForm:hover{
+      opacity: 1;
+    }
+  
+    .seen{
+      width: 50px;
+      height: 50px;
+      background-color: #10142d;
+      position: absolute;
+      transition: opacity 0.3s;
+      margin-left: -50px;
+      color: rgba(255, 355, 255, 0);
+      border: none;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.5) url(seen.png) 10px 12px no-repeat;
+      background-size: 30px 30px;
+    }
+  
+  
+  
+    .seenIcon{
+      margin-left: -50px;
+      padding-top: 212px;
+      width: 30px;
+      box-shadow: none;
+      position: absolute;
+    }
+  
+    .infoContainer{
+        min-height: 62px;
+        max-width: 240px;
+      }
+    
+      .show{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+    
+    
+      .unselected{
+        height: 50%;
+      }
+    
+      .film .unselected{
+        width: 280px;
+        height: 450px;
+      }
+    
+      .film a{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    
+      strong{
+        font-size: 18px;
+        margin-top: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: pre-wrap;
+      }
+    
+      .showTitle{
+        overflow: visible;
+      }
+    
+    
+      img{
+        width: 100%;
+        width: 240px;
+        height: 350px;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+        transition: width 0.2s;
+      }
+    
+    
+      .footer-basic footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #005F73;
+        color: #94D2BD;
+      }
+      
+      .footer-row {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .footer-row a {
+        color: #94D2BD;
+        text-decoration: none;
+        margin: 10px 10px;
+      }
+      
+      .footer-basic footer .copyright {
+        margin-top: 20px;
+        text-align: center;
+      }
+    
